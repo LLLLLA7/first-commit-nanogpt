@@ -1,3 +1,24 @@
 # Override jupyter in Github language stats for more accurate estimate of repo code languages
 # reference: https://github.com/github/linguist/blob/master/docs/overrides.md#generated-code
 *.ipynb linguist-generated
+configurator.py filter=lfs diff=lfs merge=lfs -text
+data filter=lfs diff=lfs merge=lfs -text
+run_cn.md filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+assets filter=lfs diff=lfs merge=lfs -text
+config filter=lfs diff=lfs merge=lfs -text
+out-shakespeare filter=lfs diff=lfs merge=lfs -text
+out-zhetian-char filter=lfs diff=lfs merge=lfs -text
+transformer_sizing.ipynb filter=lfs diff=lfs merge=lfs -text
+__pycache__ filter=lfs diff=lfs merge=lfs -text
+model.py filter=lfs diff=lfs merge=lfs -text
+out-wanmei-char filter=lfs diff=lfs merge=lfs -text
+train.py filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+bench.py filter=lfs diff=lfs merge=lfs -text
+out-doupo-char filter=lfs diff=lfs merge=lfs -text
+out-shakespeare-char filter=lfs diff=lfs merge=lfs -text
+sample.py filter=lfs diff=lfs merge=lfs -text
+scaling_laws.ipynb filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
